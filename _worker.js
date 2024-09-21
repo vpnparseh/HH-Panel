@@ -1633,7 +1633,7 @@ async function renderHomePage (env, hostName, fragConfigs) {
 	</head>
 	
 	<body>
-		<h1>Control panel <span style="font-size: smaller;">${panelVersion}</span> 💥 🇫🇷</h1>
+		<h1>Control Panel <span style="font-size: smaller;">${panelVersion}</span> 💥</h1>
 		<div class="form-container">
             <form id="configForm">
                 <h2>VLESS/TROJAN SETTINGS ⚙️</h2>
@@ -2626,7 +2626,7 @@ async function renderLoginPage () {
     </head>
     <body>
         <div class="container">
-            <h1>Control panel <span style="font-size: smaller;">${panelVersion}</span> 💥 🇫🇷</h1>
+            <h1>Control panel <span style="font-size: smaller;">${panelVersion}</span> 💥 </h1>
             <div class="form-container">
                 <h2>User Login</h2>
                 <form id="loginForm">
@@ -2697,7 +2697,7 @@ function renderErrorPage (message, error, refer) {
 
     <body>
         <div id="error-container">
-            <h1>Control panel <span style="font-size: smaller;">${panelVersion}</span> 💥 🇫🇷</h1>
+            <h1>Control panel <span style="font-size: smaller;">${panelVersion}</span> 💥 </h1>
             <div id="error-message">
                 <h2>${message} ${refer 
                     ? 'Please try again or refer to <a href="https://github.com/bia-pain-bache/BPB-Worker-Panel/blob/main/README.md">documents</a>' 
